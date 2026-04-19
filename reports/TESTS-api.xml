@@ -1,0 +1,16 @@
+<testsuite name="api.API Response Testing" tests="1" errors="0" failures="0" skipped="0" time="0.403732" timestamp="2026-04-20T03:17:09.238199" hostname="Mac.ts.net lan"><testcase classname="api.API Response Testing" name="Validate API response" status="passed" time="0.403732"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Validate API response
+    Given I make a request to the free API ... passed in 0.403s
+    When I receive the response ... passed in 0.000s
+    Then the response status should be 200 ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+200
+
+]]>
+</system-out></testcase></testsuite>

@@ -1,0 +1,25 @@
+<testsuite name="e2e.Google Search Functionality" tests="1" errors="0" failures="1" skipped="0" time="3.245058" timestamp="2026-04-20T03:17:17.686014" hostname="Mac.ts.net lan"><testcase classname="e2e.Google Search Functionality" name="Search for a query on Google" status="failed" time="3.245058"><failure type="AssertionError" message="">
+<![CDATA[
+Failing step: Then I should see results for "Behave BDD" ... failed in 0.009s
+Location: features/e2e.feature:9
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/behave/model.py", line 1329, in run
+    match.run(runner.context)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/behave/matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "features/steps/e2e.py", line 19, in step_see_results
+    assert query in results_element.get_attribute("innerText")
+AssertionError
+]]>
+</failure><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Search for a query on Google
+    Given I open the Google webpage ... passed in 0.993s
+    When I search for "Behave BDD" ... passed in 2.243s
+    Then I should see results for "Behave BDD" ... failed in 0.009s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
