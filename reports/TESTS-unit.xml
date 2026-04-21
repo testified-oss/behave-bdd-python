@@ -1,0 +1,23 @@
+<testsuite name="unit.Mocking and Utility Functions" tests="2" errors="0" failures="0" skipped="0" time="0.000376" timestamp="2026-04-20T03:17:10.079845" hostname="Mac.ts.net lan"><testcase classname="unit.Mocking and Utility Functions" name="Using a mock object" status="passed" time="0.000275"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Using a mock object
+    Given a mock object is created ... passed in 0.000s
+    When the mock object is called ... passed in 0.000s
+    Then it should return the expected result ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="unit.Mocking and Utility Functions" name="Using a utility function" status="passed" time="0.000101"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Using a utility function
+    Given a utility function is available ... passed in 0.000s
+    When I call the utility function ... passed in 0.000s
+    Then it should return the correct output ... passed in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
